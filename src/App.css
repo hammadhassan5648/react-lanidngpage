@@ -1,0 +1,861 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200 ;0,400 ;1,600&display=swap');
+.container {
+	max-width: 1000px ;
+	margin: auto ;
+}
+
+img {
+	width: 100% ;
+}
+
+body {
+	font-family: 'Poppins' ;
+	font-style: normal ;
+}
+
+
+/* Header styling start*/
+
+.header-main {
+padding: 0px 20px;
+background: linear-gradient(
+		252.44deg
+		, #5906C2 0%, #7240C4 95.92%);
+}
+
+.header-main .row {
+	display: inherit  ;
+}
+
+.navbar-nav {
+	width: 80% ;
+}
+
+.nav-link {
+	color: white !important ;
+	font-style: normal ;
+	font-weight: 500 ;
+	font-size: 14px ;
+	line-height: 21px ;
+}
+
+.nav-login {
+	padding-right: 25px ;
+}
+
+.navbar-toggler-icon {
+	background-color: white ;
+}
+
+.navbar-light .navbar-toggler {
+	background-color: white ;
+	color: white ;
+}
+
+.login {
+	position: absolute ;
+	right: 0 ;
+	top: 18px ;
+}
+
+.login li {
+	list-style: none ;
+}
+
+.navbar-toggler {
+	background-color: white !important ;
+	
+}
+.navbar-toggler:focus{
+	border: none !important;
+	outline: none !important;
+	box-shadow:none  !important;
+
+}
+
+.nav-pro {
+	width: 132px ;
+	height: 36px ;
+	font-weight: 600 ;
+	font-size: 12px ;
+	line-height: 18px ;
+	text-align: center ;
+	color: #6161FF !important ;
+	background: #FFFFFF ;
+	border-radius: 57px ;
+}
+
+
+/* Header Styling End */
+
+
+/* Banner Styling Start */
+
+.banner-main {
+	background: linear-gradient(252.44deg, #5906C2 0%, #7240C4 95.92%) ;
+	padding: 135px 0px ;
+	position: relative ;
+}
+
+.head-banner h3 {
+	font-weight: 500 ;
+	font-size: 36px ;
+	line-height: 54px ;
+	color: #FFFFFF ;
+}
+
+.head-banner p {
+	font-weight: normal ;
+	font-size: 18px ;
+	line-height: 27px ;
+	color: white ;
+}
+
+.cards-head h3 {
+	font-weight: 500 ;
+	font-size: 48px ;
+	line-height: 72px ;
+	color: #FFFFFF ;
+	padding-top: 20px ;
+	margin-bottom: 25px ;
+}
+
+.card p {
+	font-weight: 500 ;
+	font-size: 21px;
+	line-height: 27px ;
+}
+
+.card {
+	color: white ;
+	width: 220px ;
+	height: 231px  ;
+	border-radius: 19px   !important;
+	margin-right: 20px;
+}
+
+.card:nth-child(1) {
+	background: #1BC0C0 ;
+}
+
+.card:nth-child(2) {
+	background: #FFD600 ;
+}
+
+.card:nth-child(3) {
+	background: #FF8ADE ;
+}
+
+.card img {
+	width: 70% ;
+	position: absolute ;
+	right: 0px ;
+	padding: 0px ;
+	margin: 0 ;
+	bottom: -1px ;
+}
+
+.card:nth-child(2) img {
+	width: 100% ;
+}
+
+.card i {
+	position: relative ;
+}
+
+.card i::before {
+	position: absolute ;
+	width: 26px ;
+	height: 26px ;
+	left: 0 ;
+	background: #FFFFFF ;
+	opacity: 0.5 ;
+	border: 2px solid #FFFFFF ;
+	border-radius: 50% ;
+}
+
+.fa-chevron-right:before {
+	content: "\f054" ;
+	color: black ;
+	padding: 3px 0px 0px 6px ;
+}
+
+.banner-img {
+	position: absolute ;
+	top: 90px ;
+	right: 0 ;
+}
+
+.banner-img img {
+	width: 470px ;
+	height: 660px ;
+}
+
+
+/* Banner Styling Close */
+
+
+/* Pet-pro Section Start */
+
+.pet-main {
+	padding: 135px 0px ;
+}
+
+.pet-head h3 {
+	font-weight: 500 ;
+	font-size: 36px ;
+	line-height: 54px ;
+	color: #6161FF ;
+}
+
+.pet-head h3 i {
+	color: #1BC0C0 ;
+	transform: matrix(-0.87, 0.49, 0.49, 0.87, -18, -9) ;
+	font-size: 45px ;
+}
+
+.pet-head h3 span i {
+	color: #FF8ADE ;
+	transform: matrix(1, 1, -1, 1, 27, -9) ;
+	font-size: 25px ;
+}
+
+.pet-head p {
+	font-size: 18px ;
+	line-height: 27px ;
+	color: #000000 ;
+	opacity: 0.5 ;
+}
+
+.Product-filter {
+	margin-top: 80px ;
+}
+
+.form-group3 .form-select {
+	
+	height: 51px ;
+	opacity: 0.5 ;
+	border: 0.5px solid #000000 ;
+	box-sizing: border-box ;
+	border-radius: 59px ;
+	margin-right: 15px ;
+	padding-left: 25px ;
+}
+
+.form-group3 p {
+	margin-bottom: 5px ;
+	margin-left: 22px ;
+	font-size: 14px ;
+	line-height: 21px ;
+	color: #000000 ;
+	opacity: 0.5 ;
+}
+
+.form-group1 .form-control {
+	
+	height: 51px ;
+	opacity: 0.5 ;
+	border: 0.5px solid #000000 ;
+	box-sizing: border-box ;
+	border-radius: 59px ;
+	margin-right: 15px ;
+	padding-left: 25px ;
+}
+
+.form-group1 p {
+	margin-bottom: 5px ;
+	margin-left: 22px ;
+	font-size: 14px ;
+	line-height: 21px ;
+	color: #000000 ;
+	opacity: 0.5 ;
+}
+
+.form-group2 .form-control {
+
+	height: 51px ;
+	opacity: 0.5 ;
+	border: 0.5px solid #000000 ;
+	box-sizing: border-box ;
+	border-radius: 59px ;
+	padding-left: 25px ;
+	margin-right: 15px ;
+}
+.form-group1,.form-group2,.form-group3{
+	width: 28.33%;
+	margin-right: 20px;
+}
+
+.form-group2 p {
+	margin-bottom: 5px ;
+	margin-left: 22px ;
+	font-size: 14px ;
+	line-height: 21px ;
+	color: #000000 ;
+	opacity: 0.5 ;
+}
+
+.Product-filter button {
+	width: 15%;
+	height: 51px ;
+	background: #6161FF ;
+	box-shadow: 0px 4px 20px rgba(97, 97, 255, 0.49) ;
+	border-radius: 59px ;
+	margin-top: 24px ;
+	margin-right: 15px ;
+}
+
+.pet-card-head {
+	margin-top: 55px ;
+}
+.pet-card-head p{
+	margin: 20px 14px 0px 0px;
+}
+.pet-row{
+	margin-top: 60px;
+}
+.pet-card-head span {
+	font-weight: 500 ;
+	font-size: 16px ;
+	line-height: 24px ;
+	color: #1BC0C0 ;
+	margin: 0px 10px 0px 5px ;
+}
+
+.pet-card-head i {
+	color: #1BC0C0 ;
+}
+
+.card-1 {
+	border: 0.5px solid rgba(0, 0, 0, 0.2) ;
+	box-sizing: border-box ;
+	border-radius: 31px ;
+	padding: 0px ;
+	width: 100% ;
+	min-height: 480px;
+}
+
+.card-1 h5 {
+	margin-top: 16px ;
+	font-weight: 600 ;
+	font-size: 24px ;
+	line-height: 36px ;
+	padding-left: 20px ;
+}
+
+.card-1 h5 span {
+	color: #000000 ;
+	opacity: 0.5 ;
+}
+
+.card-1 p {
+	font-weight: 500 ;
+	font-size: 16px ;
+	line-height: 24px ;
+	color: #878787 ;
+	margin-top: 7px ;
+	padding: 0px 20px 10px 20px ;
+}
+
+.deal a {
+	color: white ;
+	background: #6161FF ;
+	border-radius: 51px ;
+	padding: 5px 15px 5px 15px ;
+	margin-left: 21px;
+	font-size: 12px ;
+	line-height: 18px ;
+	text-decoration: none ;
+}
+
+.deal a i {
+	color: white ;
+	padding-right: 5px ;
+}
+
+.deal a:nth-child(2) {
+	background-color: #FFA800 ;
+}
+
+
+/* Pet-pro Section Close */
+
+
+/* Pet Food Section Start */
+
+.food-main {
+	padding-bottom: 135px ;
+	background: #F7FFFF ;
+	padding-top: 135px ;
+}
+
+.food-pet {
+	margin-right: 30px ;
+}
+
+.food-data img {
+	width: 20% ;
+	margin-bottom: 20px ;
+}
+
+.food-data {
+	margin-left: 30px ;
+}
+
+.food-data .feature {
+	font-weight: 600 ;
+	font-size: 14px ;
+	line-height: 21px ;
+	color: #6161FF ;
+}
+
+.food-data h3 {
+	font-weight: 500 ;
+	font-size: 36px ;
+	line-height: 54px ;
+	color: #000000 ;
+}
+
+.food-data p {
+	font-weight: normal ;
+	font-size: 18px ;
+	line-height: 27px ;
+	color: #000000 ;
+	margin-bottom: 25px ;
+}
+
+.food-data a {
+	text-decoration: none ;
+	color: white ;
+	background: #6161FF ;
+	border-radius: 44px ;
+	height: 45px ;
+	width: 200px ;
+	padding: 10px 0px 0px 20px ;
+}
+
+.food-data .d-flex p {
+	font-weight: 500 ;
+	font-size: 14px ;
+	line-height: 21px ;
+	color: #6161FF ;
+	padding: 14px 0px 0px 20px ;
+}
+
+
+/* Pet Food Section Close */
+
+
+/* Pet Form Section Start */
+
+.form-main {
+	padding-bottom: 135px ;
+	margin-top: 30px ;
+}
+
+.form-main .container {
+	margin-top: 80px ;
+	background: #6161FF ;
+	border-radius: 42px ;
+	min-height: 560px;
+}
+
+.form-data {
+	padding: 70px 70px 140px 0px ;
+}
+.form-pet-main{
+	position: relative;
+}
+.form-img {
+	position: absolute ;
+	top: -6px ;
+}
+
+.form-data p {
+	font-size: 18px ;
+	line-height: 27px ;
+	margin-bottom: 45px ;
+	color: #FFFFFF; 
+}
+
+.form-data h3 {
+	font-weight: 500 ;
+	font-size: 30px ;
+	line-height: 60px ;
+	color: #FFFFFF;
+}
+
+.feild input[type="text"] {
+	width: 60% ;
+	height: 44px;
+	background: #FFFFFF;
+	border-radius: 63px;
+	border: none ;
+	outline: none ;
+	padding-left: 20px ;
+	margin-right: 20px ;
+}
+
+.feild input[type="text"]:nth-child(2) {
+	padding-left: 20px ;
+	width: 40% ;
+	height: 44px; 
+	background: #FFFFFF; 
+	border-radius: 63px ;
+	border: none ;
+	outline: none ;
+	margin-right: 0px; 
+}
+
+.form-data input[type="email"] {
+	width: 100% ;
+	height: 44px ;
+	background: #FFFFFF;
+	border-radius: 63px ;
+	border: none ;
+	padding-left: 20px ;
+	outline: none;
+	margin-top: 20px ;
+}
+
+.form-data button {
+	width: 30% ;
+	height: 44px ;
+	margin-top: 20px ;
+	float: right ;
+	color: white ;
+	border: none ;
+	outline: none ;
+	background: #1BC0C0; 
+	border-radius: 63px ;
+}
+
+/* Pet Form Section Close */
+
+
+/* Footer Section Start */
+
+.footer-main {
+	padding: 135px 0px 
+}
+
+.footer-menu ul,
+.footer-contact ul {
+	list-style: none ;
+}
+
+.footer-menu ul li,
+.footer-contact ul li {
+	margin-bottom: 13px ;
+	
+}
+
+.footer-menu ul li a,
+.footer-contact ul li a {
+	color: black ;
+	font-size: 14px ;
+	line-height: 21px ;
+	opacity: 0.7 ;
+	text-decoration: none ;
+}
+
+.footer-menu h5,
+.footer-contact h5 {
+	font-weight: 500 ;
+	font-size: 14px ;
+	line-height: 21px ;
+	color: #6161FF; 
+	margin-bottom: 25px ;
+	margin-left: 32px;
+}
+
+.footer-logo img {
+	width: 80% ;
+}
+
+.footer-logo {
+	width: 80% ;
+}
+.footer-contact{
+	position: absolute ;
+    right: 0px ;
+}
+
+.footer-contact ul li a i {
+	margin-right: 10px ;
+}
+
+.fa-facebook-square {
+	color: #475993 ;
+}
+
+.fa-twitter {
+	color: #76A9EA ;
+}
+
+.fa-instagram {
+	color: #7f1734 ;
+}
+
+.fa-youtube {
+	color: #F61C0D ;
+}
+
+
+/* Footer Section Close */
+
+
+/* Media Query Start */
+
+@media (max-width: 1250px) {
+	.banner-img img {
+		width: 400px ;
+		height: 660px ;
+	}
+}
+
+@media (max-width: 1250px) {
+	.banner-img img {
+		width: 330px ;
+		height: 660px ;
+	}
+}
+
+@media (max-width: 992px) {
+	.banner-main {
+		padding: 90px 0px ;
+	}
+	.banner-img img {
+		display: none ;
+	}
+	.login {
+		position: inherit ;
+		display: inherit !important;
+		padding-left: 0px;
+	}
+	.nav-link {
+		padding-left: 0px ;
+	}
+	.nav-pro {
+		margin-top: 10px ;
+	}
+	.nav-login{
+		padding-left: 0px  !important;
+	}
+	
+	.card img {
+		width: 50% 
+	}
+	.card:nth-child(2) img {
+		height: 170px ;
+	}
+	.pet-main {
+		padding: 90px 0px ;
+	}
+	.food-main {
+		padding-bottom: 90px ;
+	}
+	.form-main {
+		padding-bottom: 90px ;
+	}
+	.footer-main {
+		padding: 90px 0px ;
+	}
+	.deal a {
+
+		padding: 5px 7px 5px 2px;
+}
+.card:nth-child(3) {
+  
+    margin-top: 20px;
+}
+}
+
+
+@media (max-width: 846px) {
+	.deal a {
+		color: white ;
+		background: #6161FF; 
+		border-radius: 51px ;
+		padding: 5px 9px 5px 9px ;
+		margin-left: 14px;
+	}
+}
+
+
+
+@media (max-width: 775px) {
+	.deal a {
+		color: white ;
+		background: #6161FF; 
+		border-radius: 51px ;
+		padding: 5px 7px 5px 7px ;
+		margin-left: 21px;
+
+	}
+}
+
+@media (max-width: 767px) {
+	
+	.card{
+		margin-bottom: 30px;
+	}
+	.card img {
+		width: 45%;
+	}
+	.Product-filter .d-flex {
+		display: inherit !important;
+	}
+	.form-group1,
+	.form-group2,
+	.form-group3 {
+		margin-bottom: 20px ;
+	}
+	
+	.Product-filter {
+		margin-top: 50px ;
+	}
+	.card-3 {
+		margin-top: 20px ;
+	}
+	.food-data {
+		margin-top: 30px ;
+		margin-left: 0px ;
+	}
+	.food-pet {
+		margin: 0px ;
+	}
+	.form-img {
+		display: none ;
+	}
+	.footer-contact {
+		margin-top: 30px ;
+	}
+	.footer-logo img {
+		width: 69% ;
+	}
+	.footer-contact{
+		position: inherit ;
+		
+	}
+	.form-group1,.form-group2,.form-group3{
+		width: 100%;
+	
+	}
+	.Product-filter button {
+		width: 40%;
+	}
+	.card:nth-child(3) {
+  
+		margin-top: 0;
+	}
+}
+
+
+
+@media (max-width: 576px) {
+	.card-1 {
+		margin-bottom: 20px ;
+	}
+	.footer-main {
+		text-align: center ;
+	}
+	.footer-logo img {
+		width: 44% ;
+		margin-left: 16px ;
+		margin-bottom: 30px ;
+	}
+	
+	
+	
+}
+
+@media (max-width: 515px) {
+	.pet-head h3 {
+		font-weight: 500 ;
+		font-size: 30px ;
+	}
+	.pet-head h3 i {
+		font-size: 35px ;
+		transform: matrix(-0.87, 0.49, 0.49, 0.87, -17, 0) ;
+	}
+	.pet-head h3 span i {
+		font-size: 15px ;
+	}
+	.pet-head p {
+		font-size: 14px ;
+	}
+}
+
+@media (max-width: 490px) {
+	.card {
+		width: 100% ;
+	}
+	
+	.card img {
+		width: 45% ;
+	}
+	.banner-main {
+		padding: 50px 0px ;
+	}
+	.pet-main {
+		padding: 50px 0px ;
+	}
+	.Product-filter {
+		margin-top: 30px ;
+	}
+	.food-main {
+		padding-bottom: 50px ;
+	}
+	.form-main {
+		padding-bottom: 50px ;
+	}
+	.footer-main {
+		padding: 50px 0px ;
+	}
+	.form-data button {
+		width: 40%;
+	}
+	
+}
+
+
+
+@media (max-width: 430px) {
+	.pet-head h3 i {
+		transform: matrix(-0.87, 0.49, 0.49, 0.87, -4, -1) ;
+	}
+	.pet-head h3 span i {
+		color: #FF8ADE ;
+		transform: matrix(1, 1, -1, 1, 9, -9) ;
+	}
+	.pet-head h3 i {
+		font-size: 20px ;
+		transform: matrix(-0.87, 0.49, 0.49, 0.87, 1, 12) ;
+	}
+	.pet-head h3 span i {
+		font-size: 10px ;
+	}
+	.pet-head h3 {
+		font-weight: 500 ;
+		font-size: 25px ;
+	}
+	.food-data h3 {
+		font-size: 26px ;
+	}
+	.form-data h3 {
+		font-size: 26px ;
+	}
+}
+
+@media (max-width: 400px) {
+	.food-data a {
+		font-size: 14px ;
+		width: 163px ;
+		padding: 13px 0px 0px 12px ;
+	}
+	.footer-logo img {
+		width: 44% ;
+		margin-left: 19px ;
+	}
+}
